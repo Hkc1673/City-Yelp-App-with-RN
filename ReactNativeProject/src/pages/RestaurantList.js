@@ -32,6 +32,7 @@ const RestaurantList = (props) => {
         return (
             <RestaurantItem
                 restaurant={item}
+                onSelect={()=> props.navigation.navigate("Details", {selectedRestaurant: item})}
             />
         )
     }

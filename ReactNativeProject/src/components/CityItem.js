@@ -1,5 +1,5 @@
-import React from "react";
-import { TouchableOpacity,Text, StyleSheet} from "react-native";
+import React from 'react';
+import { TouchableOpacity, Text, StyleSheet } from 'react-native';
 
 const CityItem = (props) => {
     return (
@@ -9,16 +9,15 @@ const CityItem = (props) => {
     )
 }
 
-export {CityItem};
+export { CityItem };
 
-
-const styles = StyleSheet.create ({
+const styles = StyleSheet.create({
     container: {
         padding: 10,
-        alignItems: "center"
+        alignItems: 'center'
     },
     text: {
         fontSize: 20,
-        fontWeight: "300",
+        fontWeight: '300'
     }
 })
